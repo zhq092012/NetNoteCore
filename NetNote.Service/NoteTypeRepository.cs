@@ -1,0 +1,4 @@
+﻿// /Users/zhanghuqiang/Documents/GitHub/NetNote/NetNote.Service/NoteTypeRepository.cs
+// 2019/12/19
+// zhanghuqiang-zhq_092012@163.com
+using System;using System.Collections.Generic;using System.Threading.Tasks;using Microsoft.EntityFrameworkCore;using NetNote.IService;using NetNote.Models;namespace NetNote.Service{  public class NoteTypeRepository : INoteTypeRepository  {    private NoteContext context;    public NoteTypeRepository(NoteContext _context)    {      this.context = _context;    }    public Task<List<NoteType>> GetListAsync()    {      return context.NoteTypes.ToListAsync();    }  }}

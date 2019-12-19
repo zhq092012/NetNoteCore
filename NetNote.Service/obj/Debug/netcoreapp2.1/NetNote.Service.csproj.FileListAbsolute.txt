@@ -1,0 +1,14 @@
+/Users/zhanghuqiang/Documents/GitHub/NetNote/NetNote.Service/bin/Debug/netcoreapp2.1/NetNote.Service.deps.json
+/Users/zhanghuqiang/Documents/GitHub/NetNote/NetNote.Service/bin/Debug/netcoreapp2.1/NetNote.Service.dll
+/Users/zhanghuqiang/Documents/GitHub/NetNote/NetNote.Service/bin/Debug/netcoreapp2.1/NetNote.Service.pdb
+/Users/zhanghuqiang/Documents/GitHub/NetNote/NetNote.Service/bin/Debug/netcoreapp2.1/NetNote.IService.dll
+/Users/zhanghuqiang/Documents/GitHub/NetNote/NetNote.Service/bin/Debug/netcoreapp2.1/NetNote.Models.dll
+/Users/zhanghuqiang/Documents/GitHub/NetNote/NetNote.Service/bin/Debug/netcoreapp2.1/NetNote.Models.pdb
+/Users/zhanghuqiang/Documents/GitHub/NetNote/NetNote.Service/bin/Debug/netcoreapp2.1/NetNote.IService.pdb
+/Users/zhanghuqiang/Documents/GitHub/NetNote/NetNote.Service/obj/Debug/netcoreapp2.1/NetNote.Service.csprojAssemblyReference.cache
+/Users/zhanghuqiang/Documents/GitHub/NetNote/NetNote.Service/obj/Debug/netcoreapp2.1/NetNote.Service.csproj.CoreCompileInputs.cache
+/Users/zhanghuqiang/Documents/GitHub/NetNote/NetNote.Service/obj/Debug/netcoreapp2.1/NetNote.Service.AssemblyInfoInputs.cache
+/Users/zhanghuqiang/Documents/GitHub/NetNote/NetNote.Service/obj/Debug/netcoreapp2.1/NetNote.Service.AssemblyInfo.cs
+/Users/zhanghuqiang/Documents/GitHub/NetNote/NetNote.Service/obj/Debug/netcoreapp2.1/NetNote.Service.csproj.CopyComplete
+/Users/zhanghuqiang/Documents/GitHub/NetNote/NetNote.Service/obj/Debug/netcoreapp2.1/NetNote.Service.dll
+/Users/zhanghuqiang/Documents/GitHub/NetNote/NetNote.Service/obj/Debug/netcoreapp2.1/NetNote.Service.pdb
