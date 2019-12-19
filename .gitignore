@@ -9,3 +9,6 @@
 *.cache
 *.cache
 NetNote.IService/obj/Debug/netcoreapp2.1/NetNote.IService.assets.cache
+.vs/NetNote/xs/UserPrefs.xml
+NetNote.IService/obj/Debug/netcoreapp2.1/NetNote.IService.csprojAssemblyReference.cache
+*.cache
