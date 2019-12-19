@@ -12,3 +12,5 @@ NetNote.IService/obj/Debug/netcoreapp2.1/NetNote.IService.assets.cache
 .vs/NetNote/xs/UserPrefs.xml
 NetNote.IService/obj/Debug/netcoreapp2.1/NetNote.IService.csprojAssemblyReference.cache
 *.cache
+*.dll
+NetNote.IService/bin/Debug/netcoreapp2.1/NetNote.IService.deps.json
