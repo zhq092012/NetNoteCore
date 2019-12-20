@@ -16,7 +16,6 @@
 /Users/zhanghuqiang/Documents/GitHub/NetNoteCore/NetNote.IService/bin/Debug/netcoreapp2.1/NetNote.Models.dll
 /Users/zhanghuqiang/Documents/GitHub/NetNoteCore/NetNote.IService/bin/Debug/netcoreapp2.1/NetNote.Models.pdb
 /Users/zhanghuqiang/Documents/GitHub/NetNoteCore/NetNote.IService/obj/Debug/netcoreapp2.1/NetNote.IService.csprojAssemblyReference.cache
-/Users/zhanghuqiang/Documents/GitHub/NetNoteCore/NetNote.IService/obj/Debug/netcoreapp2.1/NetNote.IService.csproj.CoreCompileInputs.cache
 /Users/zhanghuqiang/Documents/GitHub/NetNoteCore/NetNote.IService/obj/Debug/netcoreapp2.1/NetNote.IService.AssemblyInfoInputs.cache
 /Users/zhanghuqiang/Documents/GitHub/NetNoteCore/NetNote.IService/obj/Debug/netcoreapp2.1/NetNote.IService.AssemblyInfo.cs
 /Users/zhanghuqiang/Documents/GitHub/NetNoteCore/NetNote.IService/obj/Debug/netcoreapp2.1/NetNote.IService.csproj.CopyComplete
