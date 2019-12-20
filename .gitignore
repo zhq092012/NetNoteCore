@@ -14,3 +14,10 @@ NetNote.IService/obj/Debug/netcoreapp2.1/NetNote.IService.csprojAssemblyReferenc
 *.cache
 *.dll
 NetNote.IService/bin/Debug/netcoreapp2.1/NetNote.IService.deps.json
+NetNote.IService/obj/Debug/netcoreapp2.1/NetNote.IService.AssemblyInfo.cs
+.vs/NetNote/v16/.suo
+NetNote.IService/obj/Debug/netcoreapp2.1/NetNote.IService.AssemblyInfo.cs
+*.cache
+NetNote.IService/obj/NetNote.IService.csproj.nuget.dgspec.json
+NetNote.Service/obj/NetNote.Service.csproj.nuget.dgspec.json
+NetNote/obj/NetNote.csproj.nuget.dgspec.json
