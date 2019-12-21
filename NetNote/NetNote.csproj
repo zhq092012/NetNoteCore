@@ -17,7 +17,6 @@
         <ProjectReference Include="..\NetNote.Service\NetNote.Service.csproj" />
     </ItemGroup>
     <ItemGroup>
-      <Folder Include="ViewModels\" />
       <Folder Include="Views\Note\" />
       <Folder Include="wwwroot\file\" />
     </ItemGroup>
