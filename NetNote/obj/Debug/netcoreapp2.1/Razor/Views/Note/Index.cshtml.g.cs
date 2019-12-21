@@ -65,7 +65,7 @@ using NetNote.Models;
             WriteLiteral("<div class=\"container-fluid\">\r\n    <div class=\"row\">\r\n        ");
             EndContext();
             BeginContext(352, 30, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c77aebe692484d169b23a40c65a131c6", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "568e8255a980496495f57410027ae7ad", async() => {
                 BeginContext(372, 6, true);
                 WriteLiteral("添加Note");
                 EndContext();
@@ -181,7 +181,7 @@ WriteAttributeValue("", 798, item.Attachment, 798, 16, false);
             WriteLiteral("            <div class=\"row\">");
             EndContext();
             BeginContext(952, 56, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "778d03add7ee44d98e6c5333be2a1c8d", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "649c4cec60e94dfe9ee7e3e5214dfeb2", async() => {
                 BeginContext(999, 5, true);
                 WriteLiteral("内容已加密");
                 EndContext();
@@ -241,7 +241,7 @@ WriteAttributeValue("", 1099, pageindex == 1 ? "disabled" : "", 1099, 35, false)
             WriteLiteral(">\r\n            ");
             EndContext();
             BeginContext(1150, 93, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "567f53fe44d14f4d993bce1099caa0cd", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0624f7056b394697be4d8beb47ee030e", async() => {
                 BeginContext(1232, 7, true);
                 WriteLiteral("&laquo;");
                 EndContext();
@@ -295,7 +295,7 @@ WriteAttributeValue("", 1099, pageindex == 1 ? "disabled" : "", 1099, 35, false)
             WriteLiteral(">\r\n                ");
             EndContext();
             BeginContext(1398, 53, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "008e3fbe8e4d4fb1a8bb51eea3f561eb", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "49b9015d2db047debecbd2184a25e0a0", async() => {
                 BeginContext(1446, 1, false);
 #line 42 "/Users/zhanghuqiang/Documents/GitHub/NetNoteCore/NetNote/Views/Note/Index.cshtml"
                                                           Write(i);
@@ -352,7 +352,7 @@ WriteAttributeValue("", 1502, pageindex == pagecount ? "disabled" : "", 1502, 43
             WriteLiteral(">\r\n            ");
             EndContext();
             BeginContext(1561, 109, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8657c651e24b40159a69e94937a3739b", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d1b2878576e40508f26aa9310a0c167", async() => {
                 BeginContext(1659, 7, true);
                 WriteLiteral("&raquo;");
                 EndContext();
