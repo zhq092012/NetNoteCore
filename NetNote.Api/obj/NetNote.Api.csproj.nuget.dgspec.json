@@ -1,0 +1,278 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/zhanghq/Documents/GitHub/NetNoteCore/NetNote.Api/NetNote.Api.csproj": {}
+  },
+  "projects": {
+    "/Users/zhanghq/Documents/GitHub/NetNoteCore/NetNote.Api/NetNote.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/zhanghq/Documents/GitHub/NetNoteCore/NetNote.Api/NetNote.Api.csproj",
+        "projectName": "NetNote.Api",
+        "projectPath": "/Users/zhanghq/Documents/GitHub/NetNoteCore/NetNote.Api/NetNote.Api.csproj",
+        "packagesPath": "/Users/zhanghq/.nuget/packages/",
+        "outputPath": "/Users/zhanghq/Documents/GitHub/NetNoteCore/NetNote.Api/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/zhanghq/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "/Users/zhanghq/Documents/GitHub/NetNoteCore/NetNote.IService/NetNote.IService.csproj": {
+                "projectPath": "/Users/zhanghq/Documents/GitHub/NetNoteCore/NetNote.IService/NetNote.IService.csproj"
+              },
+              "/Users/zhanghq/Documents/GitHub/NetNoteCore/NetNote.Models/NetNote.Models.csproj": {
+                "projectPath": "/Users/zhanghq/Documents/GitHub/NetNoteCore/NetNote.Models/NetNote.Models.csproj"
+              },
+              "/Users/zhanghq/Documents/GitHub/NetNoteCore/NetNote.Service/NetNote.Service.csproj": {
+                "projectPath": "/Users/zhanghq/Documents/GitHub/NetNoteCore/NetNote.Service/NetNote.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/zhanghq/Documents/GitHub/NetNoteCore/NetNote.IService/NetNote.IService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/zhanghq/Documents/GitHub/NetNoteCore/NetNote.IService/NetNote.IService.csproj",
+        "projectName": "NetNote.IService",
+        "projectPath": "/Users/zhanghq/Documents/GitHub/NetNoteCore/NetNote.IService/NetNote.IService.csproj",
+        "packagesPath": "/Users/zhanghq/.nuget/packages/",
+        "outputPath": "/Users/zhanghq/Documents/GitHub/NetNoteCore/NetNote.IService/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/zhanghq/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "/Users/zhanghq/Documents/GitHub/NetNoteCore/NetNote.Models/NetNote.Models.csproj": {
+                "projectPath": "/Users/zhanghq/Documents/GitHub/NetNoteCore/NetNote.Models/NetNote.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/zhanghq/Documents/GitHub/NetNoteCore/NetNote.Models/NetNote.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/zhanghq/Documents/GitHub/NetNoteCore/NetNote.Models/NetNote.Models.csproj",
+        "projectName": "NetNote.Models",
+        "projectPath": "/Users/zhanghq/Documents/GitHub/NetNoteCore/NetNote.Models/NetNote.Models.csproj",
+        "packagesPath": "/Users/zhanghq/.nuget/packages/",
+        "outputPath": "/Users/zhanghq/Documents/GitHub/NetNoteCore/NetNote.Models/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/zhanghq/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/zhanghq/Documents/GitHub/NetNoteCore/NetNote.Service/NetNote.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/zhanghq/Documents/GitHub/NetNoteCore/NetNote.Service/NetNote.Service.csproj",
+        "projectName": "NetNote.Service",
+        "projectPath": "/Users/zhanghq/Documents/GitHub/NetNoteCore/NetNote.Service/NetNote.Service.csproj",
+        "packagesPath": "/Users/zhanghq/.nuget/packages/",
+        "outputPath": "/Users/zhanghq/Documents/GitHub/NetNoteCore/NetNote.Service/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/zhanghq/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "/Users/zhanghq/Documents/GitHub/NetNoteCore/NetNote.IService/NetNote.IService.csproj": {
+                "projectPath": "/Users/zhanghq/Documents/GitHub/NetNoteCore/NetNote.IService/NetNote.IService.csproj"
+              },
+              "/Users/zhanghq/Documents/GitHub/NetNoteCore/NetNote.Models/NetNote.Models.csproj": {
+                "projectPath": "/Users/zhanghq/Documents/GitHub/NetNoteCore/NetNote.Models/NetNote.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

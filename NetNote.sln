@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetNote.Service", "NetNote.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetNote.Models", "NetNote.Models\NetNote.Models.csproj", "{B1B18E15-B8D6-4021-8BA7-C4BD5C1EF30F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetNote.Api", "NetNote.Api\NetNote.Api.csproj", "{E874F712-8EE2-4748-9F02-F1050530F957}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,5 +33,9 @@ Global
 		{B1B18E15-B8D6-4021-8BA7-C4BD5C1EF30F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1B18E15-B8D6-4021-8BA7-C4BD5C1EF30F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1B18E15-B8D6-4021-8BA7-C4BD5C1EF30F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E874F712-8EE2-4748-9F02-F1050530F957}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E874F712-8EE2-4748-9F02-F1050530F957}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E874F712-8EE2-4748-9F02-F1050530F957}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E874F712-8EE2-4748-9F02-F1050530F957}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

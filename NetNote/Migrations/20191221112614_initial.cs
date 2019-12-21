@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace NetNote.Migrations
 {
-    public partial class InitalNote : Migration
+    public partial class initial : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -30,7 +30,9 @@ namespace NetNote.Migrations
                     Title = table.Column<string>(maxLength: 100, nullable: false),
                     Content = table.Column<string>(nullable: false),
                     CreateDate = table.Column<DateTime>(nullable: false),
-                    TypeId = table.Column<int>(nullable: true)
+                    Password = table.Column<string>(nullable: true),
+                    Attachment = table.Column<string>(nullable: true),
+                    TypeId = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
                 {
@@ -40,7 +42,7 @@ namespace NetNote.Migrations
                         column: x => x.TypeId,
                         principalTable: "NoteTypes",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateIndex(
