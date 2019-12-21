@@ -9,14 +9,14 @@ using NetNote.Models;
 namespace NetNote.Migrations
 {
     [DbContext(typeof(NoteContext))]
-    [Migration("20191219145354_InitalNote")]
-    partial class InitalNote
+    [Migration("20191221112614_initial")]
+    partial class initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "2.1.8-servicing-32085")
+                .HasAnnotation("ProductVersion", "2.1.14-servicing-32113")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
             modelBuilder.Entity("NetNote.Models.Note", b =>
@@ -24,16 +24,20 @@ namespace NetNote.Migrations
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
 
+                    b.Property<string>("Attachment");
+
                     b.Property<string>("Content")
                         .IsRequired();
 
                     b.Property<DateTime>("CreateDate");
 
+                    b.Property<string>("Password");
+
                     b.Property<string>("Title")
                         .IsRequired()
                         .HasMaxLength(100);
 
-                    b.Property<int?>("TypeId");
+                    b.Property<int>("TypeId");
 
                     b.HasKey("Id");
 
@@ -60,7 +64,8 @@ namespace NetNote.Migrations
                 {
                     b.HasOne("NetNote.Models.NoteType", "Type")
                         .WithMany("Notes")
-                        .HasForeignKey("TypeId");
+                        .HasForeignKey("TypeId")
+                        .OnDelete(DeleteBehavior.Cascade);
                 });
 #pragma warning restore 612, 618
         }

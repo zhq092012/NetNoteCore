@@ -11994,23 +11994,23 @@
     ]
   },
   "packageFolders": {
-    "/Users/zhanghuqiang/.nuget/packages/": {},
+    "/Users/zhanghq/.nuget/packages/": {},
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/zhanghuqiang/Documents/GitHub/NetNoteCore/NetNote.Service/NetNote.Service.csproj",
+      "projectUniqueName": "/Users/zhanghq/Documents/GitHub/NetNoteCore/NetNote.Service/NetNote.Service.csproj",
       "projectName": "NetNote.Service",
-      "projectPath": "/Users/zhanghuqiang/Documents/GitHub/NetNoteCore/NetNote.Service/NetNote.Service.csproj",
-      "packagesPath": "/Users/zhanghuqiang/.nuget/packages/",
-      "outputPath": "/Users/zhanghuqiang/Documents/GitHub/NetNoteCore/NetNote.Service/obj/",
+      "projectPath": "/Users/zhanghq/Documents/GitHub/NetNoteCore/NetNote.Service/NetNote.Service.csproj",
+      "packagesPath": "/Users/zhanghq/.nuget/packages/",
+      "outputPath": "/Users/zhanghq/Documents/GitHub/NetNoteCore/NetNote.Service/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/zhanghuqiang/.config/NuGet/NuGet.Config"
+        "/Users/zhanghq/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
@@ -12021,11 +12021,11 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "/Users/zhanghuqiang/Documents/GitHub/NetNoteCore/NetNote.IService/NetNote.IService.csproj": {
-              "projectPath": "/Users/zhanghuqiang/Documents/GitHub/NetNoteCore/NetNote.IService/NetNote.IService.csproj"
+            "/Users/zhanghq/Documents/GitHub/NetNoteCore/NetNote.IService/NetNote.IService.csproj": {
+              "projectPath": "/Users/zhanghq/Documents/GitHub/NetNoteCore/NetNote.IService/NetNote.IService.csproj"
             },
-            "/Users/zhanghuqiang/Documents/GitHub/NetNoteCore/NetNote.Models/NetNote.Models.csproj": {
-              "projectPath": "/Users/zhanghuqiang/Documents/GitHub/NetNoteCore/NetNote.Models/NetNote.Models.csproj"
+            "/Users/zhanghq/Documents/GitHub/NetNoteCore/NetNote.Models/NetNote.Models.csproj": {
+              "projectPath": "/Users/zhanghq/Documents/GitHub/NetNoteCore/NetNote.Models/NetNote.Models.csproj"
             }
           }
         }

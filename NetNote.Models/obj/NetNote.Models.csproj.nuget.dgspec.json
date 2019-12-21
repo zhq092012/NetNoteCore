@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "/Users/zhanghuqiang/Documents/GitHub/NetNoteCore/NetNote.Models/NetNote.Models.csproj": {}
+    "/Users/zhanghq/Documents/GitHub/NetNoteCore/NetNote.Models/NetNote.Models.csproj": {}
   },
   "projects": {
-    "/Users/zhanghuqiang/Documents/GitHub/NetNoteCore/NetNote.Models/NetNote.Models.csproj": {
+    "/Users/zhanghq/Documents/GitHub/NetNoteCore/NetNote.Models/NetNote.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/zhanghuqiang/Documents/GitHub/NetNoteCore/NetNote.Models/NetNote.Models.csproj",
+        "projectUniqueName": "/Users/zhanghq/Documents/GitHub/NetNoteCore/NetNote.Models/NetNote.Models.csproj",
         "projectName": "NetNote.Models",
-        "projectPath": "/Users/zhanghuqiang/Documents/GitHub/NetNoteCore/NetNote.Models/NetNote.Models.csproj",
-        "packagesPath": "/Users/zhanghuqiang/.nuget/packages/",
-        "outputPath": "/Users/zhanghuqiang/Documents/GitHub/NetNoteCore/NetNote.Models/obj/",
+        "projectPath": "/Users/zhanghq/Documents/GitHub/NetNoteCore/NetNote.Models/NetNote.Models.csproj",
+        "packagesPath": "/Users/zhanghq/.nuget/packages/",
+        "outputPath": "/Users/zhanghq/Documents/GitHub/NetNoteCore/NetNote.Models/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/zhanghuqiang/.config/NuGet/NuGet.Config"
+          "/Users/zhanghq/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
