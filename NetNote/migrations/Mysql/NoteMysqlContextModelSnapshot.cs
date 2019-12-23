@@ -5,10 +5,10 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using NetNote.Models;
 
-namespace NetNote.Migrations
+namespace NetNote.migrations.Mysql
 {
-    [DbContext(typeof(NoteContext))]
-    partial class NoteContextModelSnapshot : ModelSnapshot
+    [DbContext(typeof(NoteMysqlContext))]
+    partial class NoteMysqlContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
         {

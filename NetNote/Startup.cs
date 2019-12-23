@@ -14,22 +14,22 @@ using Microsoft.Extensions.DependencyInjection;using NetNote.IService;using Ne
     // This method gets called by the runtime. Use this method to add services to the container.
     public void ConfigureServices(IServiceCollection services)    {
       var dbtype = Configuration.GetSection("DbType").Value;
-      if (dbtype=="SqlServer")
-      {
-        services.AddDbContext<NoteContext>(options =>
-                       options.UseSqlServer(Configuration.GetConnectionString("SqlServer"),
-                       b => b.MigrationsAssembly("NetNote"))//将迁移上下文合并到当前程序集s
-                       .UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking));//所有查询都在 DbContext 的无跟踪中执行
-      }
       if (dbtype=="Mysql")
       {
-        services.AddDbContext<NoteContext>(options =>
-                        options.UseMySql(Configuration.GetConnectionString("Mysql"),
-                        b => b.MigrationsAssembly("NetNote"))//将迁移上下文合并到当前程序集s
-                        .UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking));//所有查询都在 DbContext 的无跟踪中执行
+        services.AddDbContext<NoteMysqlContext>(options =>
+                    options.UseMySql(Configuration.GetConnectionString("Mysql"),
+                    b => b.MigrationsAssembly("NetNote"))//将迁移上下文合并到当前程序集s
+                    .UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking));//所有查询都在 DbContext 的无跟踪中执行
+
       }
-    
-   
+      else if (dbtype == "SqlServer")
+      {
+        services.AddDbContext<NoteSqlServerContext>(options =>
+                  options.UseSqlServer(Configuration.GetConnectionString("SqlServer"),
+                  b => b.MigrationsAssembly("NetNote"))//将迁移上下文合并到当前程序集s
+                  .UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking));//所有查询都在 
+
+      }
       services.AddScoped<INoteRepository, NoteRepository>();
       services.AddScoped<INoteTypeRepository, NoteTypeRepository>();
       services.Configure<CookiePolicyOptions>(options =>      {

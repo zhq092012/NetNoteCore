@@ -29,7 +29,7 @@ namespace NetNote.Api
     // This method gets called by the runtime. Use this method to add services to the container.
     public void ConfigureServices(IServiceCollection services)
     {
-      services.AddDbContext<NoteContext>(options =>
+      services.AddDbContext<NoteSqlServerContext>(options =>
                          options.UseMySql(Configuration.GetConnectionString("NoteDb"))
                          .UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking));//所有查询都在 DbContext 的无跟踪中执行
       services.AddScoped<INoteRepository, NoteRepository>();
