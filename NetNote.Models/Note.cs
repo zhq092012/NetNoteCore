@@ -1,10 +1,12 @@
 ﻿// /Users/zhanghuqiang/Documents/GitHub/NetNote/NetNote.Models/Note.cs
 // 2019/12/19
 // zhanghuqiang-zhq_092012@163.com
-using System;using System.ComponentModel.DataAnnotations;namespace NetNote.Models{
+using System;using System.ComponentModel.DataAnnotations;using System.ComponentModel.DataAnnotations.Schema;
+
+namespace NetNote.Models{
   /// <summary>
   /// 笔记
-  /// </summary>  public class Note  {    public int Id { get; set; }
+  /// </summary>  public class Note  {    [Key]    [DatabaseGenerated(DatabaseGeneratedOption.Identity)]    public int Id { get; set; }
     [Required]
     [MaxLength(100)]    public string Title { get; set; }
     [Required]    public string Content { get; set; }    public DateTime CreateDate { get; set; }

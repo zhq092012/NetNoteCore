@@ -32,3 +32,14 @@
 /Users/zhanghq/Documents/GitHub/NetNoteCore/NetNote.IService/obj/Debug/netcoreapp2.1/NetNote.IService.csproj.CopyComplete
 /Users/zhanghq/Documents/GitHub/NetNoteCore/NetNote.IService/obj/Debug/netcoreapp2.1/NetNote.IService.dll
 /Users/zhanghq/Documents/GitHub/NetNoteCore/NetNote.IService/obj/Debug/netcoreapp2.1/NetNote.IService.pdb
+F:\GitHub\NetNoteCore\NetNote.IService\bin\Debug\netcoreapp2.1\NetNote.IService.deps.json
+F:\GitHub\NetNoteCore\NetNote.IService\bin\Debug\netcoreapp2.1\NetNote.IService.dll
+F:\GitHub\NetNoteCore\NetNote.IService\bin\Debug\netcoreapp2.1\NetNote.IService.pdb
+F:\GitHub\NetNoteCore\NetNote.IService\bin\Debug\netcoreapp2.1\NetNote.Models.dll
+F:\GitHub\NetNoteCore\NetNote.IService\bin\Debug\netcoreapp2.1\NetNote.Models.pdb
+F:\GitHub\NetNoteCore\NetNote.IService\obj\Debug\netcoreapp2.1\NetNote.IService.csprojAssemblyReference.cache
+F:\GitHub\NetNoteCore\NetNote.IService\obj\Debug\netcoreapp2.1\NetNote.IService.AssemblyInfoInputs.cache
+F:\GitHub\NetNoteCore\NetNote.IService\obj\Debug\netcoreapp2.1\NetNote.IService.AssemblyInfo.cs
+F:\GitHub\NetNoteCore\NetNote.IService\obj\Debug\netcoreapp2.1\NetNote.IService.csproj.CopyComplete
+F:\GitHub\NetNoteCore\NetNote.IService\obj\Debug\netcoreapp2.1\NetNote.IService.dll
+F:\GitHub\NetNoteCore\NetNote.IService\obj\Debug\netcoreapp2.1\NetNote.IService.pdb
